@@ -1,0 +1,29 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform State files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually machine-specific
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore any .terraformrc files (these can contain credentials)
+.terraformrc
+terraform.rc
+
+# Terraform variables files (if you store sensitive information in them)
+*.tfvars
+*.tfvars.json
+
+# .plan files can contain a lot of details about your infrastructure
+*.tfplan
+
+# Lock file
+.terraform.lock.hcl
