@@ -35,7 +35,7 @@ jobs:
           terraform_version: 1.5.0 
 
       - name: Terraform check
-        run: terraform-check
+        run: terraform fmt
 
       - name: Terraform Plan
         run: terraform plan -out=tfplan
