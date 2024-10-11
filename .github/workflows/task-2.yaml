@@ -5,6 +5,8 @@ on:
     paths:
       - 'task-2/**'
 
+
+
 permissions:
     id-token: write 
     contents: read 
@@ -12,6 +14,11 @@ jobs:
   terraform:
     name: Terraform Init, Plan, and Apply
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: task-2
+
 
     steps:
       - name: Checkout repository
