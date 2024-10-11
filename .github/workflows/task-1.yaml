@@ -2,8 +2,8 @@ name: Terraform Workflow
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'task-1/**'
 
 permissions:
     id-token: write 
